@@ -1,0 +1,542 @@
+##### Boolean Functions
+
+Total Terms: 768
+
+##### Function MWE
+
+Total Local Terms     : 80
+Total Prime Imps      : 5
+1st reduced Prime Imps: 4
+2nd reduced Prime Imps: 0
+3rd reduced Prime Imps: 0
+<Redundant> Prime Imps: 0
+<Essential> Prime Imps: 4
+
+##### Truth Table
+
+0XX1101XXX 1
+0X0X101XXX 1
+X00X101XXX 1
+X0X0101XXX 1
+
+##### Boolean Equation
+
+MWE=/OPC3*OPC0*POS2*/POS1*POS0
+   +/OPC3*/OPC1*POS2*/POS1*POS0
+   +/OPC2*/OPC1*POS2*/POS1*POS0
+   +/OPC2*/OPC0*POS2*/POS1*POS0
+
+##### Statistics
+
+Total of Boolean Operators
+  - OR  operators: 3
+  - AND operators: 16
+
+Total of Prime Imps
+  -  0 order Prime Imps: 0
+  -  1 order Prime Imps: 0
+  -  2 order Prime Imps: 0
+  -  3 order Prime Imps: 0
+  -  4 order Prime Imps: 0
+  -  5 order Prime Imps: 4
+  -  6 order Prime Imps: 0
+  -  7 order Prime Imps: 0
+  -  8 order Prime Imps: 0
+  -  9 order Prime Imps: 0
+  - 10 order Prime Imps: 0
+
+Efficiency: 97.50 %
+Average   : 5.0
+Deviation : 0.0
+
+##### Function FBLD
+
+Total Local Terms     : 624
+Total Prime Imps      : 4
+1st reduced Prime Imps: 1
+2nd reduced Prime Imps: 0
+3rd reduced Prime Imps: 0
+<Redundant> Prime Imps: 0
+<Essential> Prime Imps: 1
+
+##### Truth Table
+
+XXXX0XXXXX 1
+
+##### Boolean Equation
+
+FBLD=/POS2
+
+##### Statistics
+
+Total of Boolean Operators
+  - OR  operators: 0
+  - AND operators: 0
+
+Total of Prime Imps
+  -  0 order Prime Imps: 0
+  -  1 order Prime Imps: 1
+  -  2 order Prime Imps: 0
+  -  3 order Prime Imps: 0
+  -  4 order Prime Imps: 0
+  -  5 order Prime Imps: 0
+  -  6 order Prime Imps: 0
+  -  7 order Prime Imps: 0
+  -  8 order Prime Imps: 0
+  -  9 order Prime Imps: 0
+  - 10 order Prime Imps: 0
+
+Efficiency: 99.98 %
+Average   : 1.0
+Deviation : 0.0
+
+##### Function INCTL
+
+Total Local Terms     : 680
+Total Prime Imps      : 4
+1st reduced Prime Imps: 1
+2nd reduced Prime Imps: 0
+3rd reduced Prime Imps: 0
+<Redundant> Prime Imps: 0
+<Essential> Prime Imps: 1
+
+##### Truth Table
+
+1X10X0XXXX 1
+
+##### Boolean Equation
+
+INCTL=OPC3*OPC1*/OPC0*/POS1
+
+##### Statistics
+
+Total of Boolean Operators
+  - OR  operators: 0
+  - AND operators: 3
+
+Total of Prime Imps
+  -  0 order Prime Imps: 0
+  -  1 order Prime Imps: 0
+  -  2 order Prime Imps: 0
+  -  3 order Prime Imps: 0
+  -  4 order Prime Imps: 1
+  -  5 order Prime Imps: 0
+  -  6 order Prime Imps: 0
+  -  7 order Prime Imps: 0
+  -  8 order Prime Imps: 0
+  -  9 order Prime Imps: 0
+  - 10 order Prime Imps: 0
+
+Efficiency: 99.94 %
+Average   : 4.0
+Deviation : 0.0
+
+##### Function AOP2
+
+Total Local Terms     : 696
+Total Prime Imps      : 5
+1st reduced Prime Imps: 2
+2nd reduced Prime Imps: 0
+3rd reduced Prime Imps: 0
+<Redundant> Prime Imps: 0
+<Essential> Prime Imps: 2
+
+##### Truth Table
+
+X101X0XXXX 1
+001XX0XXXX 1
+
+##### Boolean Equation
+
+AOP2=OPC2*/OPC1*OPC0*/POS1
+    +/OPC3*/OPC2*OPC1*/POS1
+
+##### Statistics
+
+Total of Boolean Operators
+  - OR  operators: 1
+  - AND operators: 6
+
+Total of Prime Imps
+  -  0 order Prime Imps: 0
+  -  1 order Prime Imps: 0
+  -  2 order Prime Imps: 0
+  -  3 order Prime Imps: 0
+  -  4 order Prime Imps: 2
+  -  5 order Prime Imps: 0
+  -  6 order Prime Imps: 0
+  -  7 order Prime Imps: 0
+  -  8 order Prime Imps: 0
+  -  9 order Prime Imps: 0
+  - 10 order Prime Imps: 0
+
+Efficiency: 99.89 %
+Average   : 4.0
+Deviation : 0.0
+
+##### Function AOP1
+
+Total Local Terms     : 744
+Total Prime Imps      : 5
+1st reduced Prime Imps: 3
+2nd reduced Prime Imps: 0
+3rd reduced Prime Imps: 0
+<Redundant> Prime Imps: 0
+<Essential> Prime Imps: 3
+
+##### Truth Table
+
+XXX1X0XXXX 1
+1XXXX0XXXX 1
+X11XX0XXXX 1
+
+##### Boolean Equation
+
+AOP1=OPC0*/POS1
+    +OPC3*/POS1
+    +OPC2*OPC1*/POS1
+
+##### Statistics
+
+Total of Boolean Operators
+  - OR  operators: 2
+  - AND operators: 4
+
+Total of Prime Imps
+  -  0 order Prime Imps: 0
+  -  1 order Prime Imps: 0
+  -  2 order Prime Imps: 2
+  -  3 order Prime Imps: 1
+  -  4 order Prime Imps: 0
+  -  5 order Prime Imps: 0
+  -  6 order Prime Imps: 0
+  -  7 order Prime Imps: 0
+  -  8 order Prime Imps: 0
+  -  9 order Prime Imps: 0
+  - 10 order Prime Imps: 0
+
+Efficiency: 99.91 %
+Average   : 2.33
+Deviation : 1.63
+
+##### Function AOP0
+
+Total Local Terms     : 736
+Total Prime Imps      : 5
+1st reduced Prime Imps: 3
+2nd reduced Prime Imps: 0
+3rd reduced Prime Imps: 0
+<Redundant> Prime Imps: 0
+<Essential> Prime Imps: 3
+
+##### Truth Table
+
+1XXXX0XXXX 1
+X1X1X0XXXX 1
+X0X0X0XXXX 1
+
+##### Boolean Equation
+
+AOP0=OPC3*/POS1
+    +OPC2*OPC0*/POS1
+    +/OPC2*/OPC0*/POS1
+
+##### Statistics
+
+Total of Boolean Operators
+  - OR  operators: 2
+  - AND operators: 5
+
+Total of Prime Imps
+  -  0 order Prime Imps: 0
+  -  1 order Prime Imps: 0
+  -  2 order Prime Imps: 1
+  -  3 order Prime Imps: 2
+  -  4 order Prime Imps: 0
+  -  5 order Prime Imps: 0
+  -  6 order Prime Imps: 0
+  -  7 order Prime Imps: 0
+  -  8 order Prime Imps: 0
+  -  9 order Prime Imps: 0
+  - 10 order Prime Imps: 0
+
+Efficiency: 99.89 %
+Average   : 2.67
+Deviation : 1.63
+
+##### Function OE
+
+Total Local Terms     : 8
+Total Prime Imps      : 1
+1st reduced Prime Imps: 1
+2nd reduced Prime Imps: 0
+3rd reduced Prime Imps: 0
+<Redundant> Prime Imps: 0
+<Essential> Prime Imps: 1
+
+##### Truth Table
+
+1011101XXX 1
+
+##### Boolean Equation
+
+OE=OPC3*/OPC2*OPC1*OPC0*POS2*/POS1*POS0
+
+##### Statistics
+
+Total of Boolean Operators
+  - OR  operators: 0
+  - AND operators: 6
+
+Total of Prime Imps
+  -  0 order Prime Imps: 0
+  -  1 order Prime Imps: 0
+  -  2 order Prime Imps: 0
+  -  3 order Prime Imps: 0
+  -  4 order Prime Imps: 0
+  -  5 order Prime Imps: 0
+  -  6 order Prime Imps: 0
+  -  7 order Prime Imps: 1
+  -  8 order Prime Imps: 0
+  -  9 order Prime Imps: 0
+  - 10 order Prime Imps: 0
+
+Efficiency: 91.25 %
+Average   : 7.0
+Deviation : 0.0
+
+##### Function IPLD1
+
+Total Local Terms     : 20
+Total Prime Imps      : 7
+1st reduced Prime Imps: 4
+2nd reduced Prime Imps: 0
+3rd reduced Prime Imps: 0
+<Redundant> Prime Imps: 0
+<Essential> Prime Imps: 4
+
+##### Truth Table
+
+11X0100XX1 1
+110X1001XX 1
+1100100XXX 1
+1111100X1X 1
+
+##### Boolean Equation
+
+IPLD1=OPC3*OPC2*/OPC0*POS2*/POS1*/POS0*NEG
+     +OPC3*OPC2*/OPC1*POS2*/POS1*/POS0*ZERO
+     +OPC3*OPC2*/OPC1*/OPC0*POS2*/POS1*/POS0
+     +OPC3*OPC2*OPC1*OPC0*POS2*/POS1*/POS0*CARRY
+
+##### Statistics
+
+Total of Boolean Operators
+  - OR  operators: 3
+  - AND operators: 25
+
+Total of Prime Imps
+  -  0 order Prime Imps: 0
+  -  1 order Prime Imps: 0
+  -  2 order Prime Imps: 0
+  -  3 order Prime Imps: 0
+  -  4 order Prime Imps: 0
+  -  5 order Prime Imps: 0
+  -  6 order Prime Imps: 0
+  -  7 order Prime Imps: 3
+  -  8 order Prime Imps: 1
+  -  9 order Prime Imps: 0
+  - 10 order Prime Imps: 0
+
+Efficiency: 85.50 %
+Average   : 7.25
+Deviation : 4.58
+
+##### Function IPLD0
+
+Total Local Terms     : 20
+Total Prime Imps      : 7
+1st reduced Prime Imps: 4
+2nd reduced Prime Imps: 0
+3rd reduced Prime Imps: 0
+<Redundant> Prime Imps: 0
+<Essential> Prime Imps: 4
+
+##### Truth Table
+
+11X0011XX1 1
+110X0111XX 1
+1100011XXX 1
+1111011X1X 1
+
+##### Boolean Equation
+
+IPLD0=OPC3*OPC2*/OPC0*/POS2*POS1*POS0*NEG
+     +OPC3*OPC2*/OPC1*/POS2*POS1*POS0*ZERO
+     +OPC3*OPC2*/OPC1*/OPC0*/POS2*POS1*POS0
+     +OPC3*OPC2*OPC1*OPC0*/POS2*POS1*POS0*CARRY
+
+##### Statistics
+
+Total of Boolean Operators
+  - OR  operators: 3
+  - AND operators: 25
+
+Total of Prime Imps
+  -  0 order Prime Imps: 0
+  -  1 order Prime Imps: 0
+  -  2 order Prime Imps: 0
+  -  3 order Prime Imps: 0
+  -  4 order Prime Imps: 0
+  -  5 order Prime Imps: 0
+  -  6 order Prime Imps: 0
+  -  7 order Prime Imps: 3
+  -  8 order Prime Imps: 1
+  -  9 order Prime Imps: 0
+  - 10 order Prime Imps: 0
+
+Efficiency: 85.50 %
+Average   : 7.25
+Deviation : 4.58
+
+##### Function ASC1
+
+Total Local Terms     : 504
+Total Prime Imps      : 20
+1st reduced Prime Imps: 4
+2nd reduced Prime Imps: 0
+3rd reduced Prime Imps: 0
+<Redundant> Prime Imps: 0
+<Essential> Prime Imps: 4
+
+##### Truth Table
+
+XXXX00XXXX 1
+XXXX0X0XXX 1
+1XX1X01XXX 1
+10X0X00XXX 1
+
+##### Boolean Equation
+
+ASC1=/POS2*/POS1
+    +/POS2*/POS0
+    +OPC3*OPC0*/POS1*POS0
+    +OPC3*/OPC2*/OPC0*/POS1*/POS0
+
+##### Statistics
+
+Total of Boolean Operators
+  - OR  operators: 3
+  - AND operators: 9
+
+Total of Prime Imps
+  -  0 order Prime Imps: 0
+  -  1 order Prime Imps: 0
+  -  2 order Prime Imps: 2
+  -  3 order Prime Imps: 0
+  -  4 order Prime Imps: 1
+  -  5 order Prime Imps: 1
+  -  6 order Prime Imps: 0
+  -  7 order Prime Imps: 0
+  -  8 order Prime Imps: 0
+  -  9 order Prime Imps: 0
+  - 10 order Prime Imps: 0
+
+Efficiency: 99.74 %
+Average   : 3.25
+Deviation : 2.65
+
+##### Function ASC0
+
+Total Local Terms     : 260
+Total Prime Imps      : 27
+1st reduced Prime Imps: 5
+2nd reduced Prime Imps: 0
+3rd reduced Prime Imps: 0
+<Redundant> Prime Imps: 0
+<Essential> Prime Imps: 5
+
+##### Truth Table
+
+11XX10XXXX 1
+0XXX100XXX 1
+XX0X100XXX 1
+1X0110XXXX 1
+10X0011XXX 1
+
+##### Boolean Equation
+
+ASC0=OPC3*OPC2*POS2*/POS1
+    +/OPC3*POS2*/POS1*/POS0
+    +/OPC1*POS2*/POS1*/POS0
+    +OPC3*/OPC1*OPC0*POS2*/POS1
+    +OPC3*/OPC2*/OPC0*/POS2*POS1*POS0
+
+##### Statistics
+
+Total of Boolean Operators
+  - OR  operators: 4
+  - AND operators: 18
+
+Total of Prime Imps
+  -  0 order Prime Imps: 0
+  -  1 order Prime Imps: 0
+  -  2 order Prime Imps: 0
+  -  3 order Prime Imps: 0
+  -  4 order Prime Imps: 3
+  -  5 order Prime Imps: 1
+  -  6 order Prime Imps: 1
+  -  7 order Prime Imps: 0
+  -  8 order Prime Imps: 0
+  -  9 order Prime Imps: 0
+  - 10 order Prime Imps: 0
+
+Efficiency: 99.12 %
+Average   : 4.60
+Deviation : 3.60
+
+##### Function SRLD
+
+Total Local Terms     : 56
+Total Prime Imps      : 3
+1st reduced Prime Imps: 3
+2nd reduced Prime Imps: 0
+3rd reduced Prime Imps: 0
+<Redundant> Prime Imps: 0
+<Essential> Prime Imps: 3
+
+##### Truth Table
+
+00XX101XXX 1
+0X0X101XXX 1
+0XX0101XXX 1
+
+##### Boolean Equation
+
+SRLD=/OPC3*/OPC2*POS2*/POS1*POS0
+    +/OPC3*/OPC1*POS2*/POS1*POS0
+    +/OPC3*/OPC0*POS2*/POS1*POS0
+
+##### Statistics
+
+Total of Boolean Operators
+  - OR  operators: 2
+  - AND operators: 12
+
+Total of Prime Imps
+  -  0 order Prime Imps: 0
+  -  1 order Prime Imps: 0
+  -  2 order Prime Imps: 0
+  -  3 order Prime Imps: 0
+  -  4 order Prime Imps: 0
+  -  5 order Prime Imps: 3
+  -  6 order Prime Imps: 0
+  -  7 order Prime Imps: 0
+  -  8 order Prime Imps: 0
+  -  9 order Prime Imps: 0
+  - 10 order Prime Imps: 0
+
+Efficiency: 97.32 %
+Average   : 5.0
+Deviation : 0.0
+
